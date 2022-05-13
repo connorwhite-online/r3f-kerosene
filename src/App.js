@@ -13,6 +13,7 @@ function App() {
          <pointLight position={[10, 10, 10]} />
         {/* Add converted jsx components to the canvas */} 
         <HelperBot />
+        {/* Add any Canvas controls here */}
         <OrbitControls />
         <Stats />
       </Canvas>
