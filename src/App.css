@@ -37,7 +37,7 @@
   }
 }
 
-.web-gl {
+#webgl {
   width: 100vw;
-  height: auto;
+  height: 100vh;
 }
