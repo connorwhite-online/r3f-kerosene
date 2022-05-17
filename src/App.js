@@ -5,6 +5,7 @@ import { Canvas } from 'react-three-fiber';
 
 // import jsx module like so after converting your GLTF at https://gltf.pmnd.rs/ and put the .gltf file in the public folder
 import HelperBot from './HelperBot';
+import Kerosene from './Kerosene';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
          <spotLight position={[10, 10, 10]} />
         {/* Add converted jsx components to the canvas */} 
         <HelperBot />
+        <Kerosene />
         {/* Add any Canvas controls here */}
         <OrbitControls enableZoom="false" />
         <Stats />
