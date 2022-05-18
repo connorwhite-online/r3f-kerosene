@@ -14,13 +14,13 @@ function App() {
          <spotLight position={[10, 10, 1]} />
         {/* Add converted jsx components to the canvas */} 
         <Kerosene />
-        {/* Add any Canvas controls here */}
+        {/* Zoom, panning, and rotation controls for the scene */}
         <OrbitControls 
           autoRotate
           autoRotateSpeed={0.5}
           zoomSpeed={0.75} 
         />
-        {/* Add any Canvas controls here */}
+        {/* Stats is a time-based log of the renderer's frame-rate */}
         <Stats />
       </Canvas>
       </Suspense>
