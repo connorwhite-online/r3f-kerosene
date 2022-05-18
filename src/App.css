@@ -1,4 +1,5 @@
 #webgl {
+  background: radial-gradient(#ff5f42, #343b89);
   width: 100vw;
   height: 100vh;
 }

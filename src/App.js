@@ -12,7 +12,7 @@ function App() {
       <Suspense>
         <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>
           <spotLight 
-            intensity={1}
+            intensity={1.5}
             angle={0.25}
             position={[10, 10, 1]} 
           />
