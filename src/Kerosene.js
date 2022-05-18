@@ -7,6 +7,7 @@ export default function Model(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh
+        onClick={(e) => console.log('click')}
         castShadow
         receiveShadow
         geometry={nodes.Cube.geometry}

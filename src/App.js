@@ -17,6 +17,7 @@ function App() {
         <Kerosene />
         {/* Add any Canvas controls here */}
         <OrbitControls zoomSpeed={0.5} />
+        {/* Add any Canvas controls here */}
         <Stats />
       </Canvas>
       </Suspense>
