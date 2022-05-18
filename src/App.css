@@ -2,4 +2,36 @@
   background: radial-gradient(#ff5f42, #343b89);
   width: 100vw;
   height: 100vh;
+  z-index: 2;
+}
+
+@font-face {
+  font-family: 'Migra-Extrabold';
+  src: local('Migra-Extrabold'), url(./fonts/PPMigra-Extrabold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'RG-Regular';
+  src: local('RG-Regular'), url(./fonts/PPRadioGrotesk-Regular.woff2) format('woff2');
+}
+
+#overlay-container {
+  position: absolute;
+  z-index: 1;
+}
+
+.heading {
+  width: 100vw;
+  height: 50vh;
+  font-family: 'Migra-Extrabold';
+  color: white;
+  text-align: center;
+  font-size: 10vw;
+}
+.subhead {
+  font-family: 'RG-Regular';
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+  padding-top: 30vh;
 }

@@ -7,8 +7,8 @@ export default function Overlay() {
                 r3f-kerosene
             </div>
             <div className="subhead">
-
+                get the party started quicker
             </div>
         </div>
-    )
+    );
 }

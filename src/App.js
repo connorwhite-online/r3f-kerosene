@@ -5,14 +5,16 @@ import { Canvas } from 'react-three-fiber';
 
 // import jsx module like so after converting your GLTF at https://gltf.pmnd.rs/ and put the .gltf file in the public folder
 import Kerosene from './Kerosene';
+import Overlay from './Overlay';
 
 function App() {
   return (
     <div id='webgl'>
+      <Overlay />
       <Suspense>
-        <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>
+        <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>  
           <spotLight 
-            intensity={1.5}
+            intensity={5}
             angle={0.25}
             position={[10, 10, 1]} 
           />
