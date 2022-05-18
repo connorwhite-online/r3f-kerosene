@@ -10,9 +10,8 @@ function App() {
   return (
     <div id='webgl'>
       <Suspense>
-       <Canvas>
-         <PerspectiveCamera position={[10, 10, 10]} />
-         <spotLight position={[10, 10, 10]} />
+       <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>
+         <spotLight position={[10, 10, 1]} />
         {/* Add converted jsx components to the canvas */} 
         <Kerosene />
         {/* Add any Canvas controls here */}
