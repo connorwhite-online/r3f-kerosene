@@ -15,7 +15,11 @@ function App() {
         {/* Add converted jsx components to the canvas */} 
         <Kerosene />
         {/* Add any Canvas controls here */}
-        <OrbitControls zoomSpeed={0.5} />
+        <OrbitControls 
+          autoRotate
+          autoRotateSpeed={0.5}
+          zoomSpeed={0.75} 
+        />
         {/* Add any Canvas controls here */}
         <Stats />
       </Canvas>
