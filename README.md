@@ -1,6 +1,6 @@
 # r3f-kerosene :fire:
 
-Quick-start framework for performant, reusable real-time 3D apps using React and Three.js.
+Quick-start framework for performant, reusable, real-time 3D apps using React and Three.js.
 
 ### Modularity
 
