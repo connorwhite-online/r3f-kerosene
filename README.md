@@ -1,6 +1,6 @@
 # r3f-kerosene :fire:
 
-Get your react-three-fiber (r3f) projects started faster with this lightweight framework.
+Quick-start framework for performant, reusable real-time 3D apps using React and Three.js.
 
 ### Modularity
 
