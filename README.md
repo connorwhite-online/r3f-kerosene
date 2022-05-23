@@ -12,7 +12,7 @@ Export a .gltf or .glb file from Blender, C4D, Maya, CLO, Fusion360 etc. To crea
 ```
 npx gltfjsx model.gltf
 ```
-
+replacing model.gltf with your file in the public folder.
 
 ### Textures
 
