@@ -1,10 +1,10 @@
-# r3f-kerosene
+# r3f-kerosene :fire:
 
-This is a booster pack for getting react-three-fiber projects off the ground using Three.js and React.
+Get your react-three-fiber (r3f) projects started faster with this lightweight framework.
 
-## Modularity
+### Modularity
 
-A lightweight jump-start for previously modeled geometries and scenes, the framework is meant to be sparse.
+Using .jsx components, react-three-fiber leverages the ability to reuse models and scenes, calling them within the canvas as easily as any other react component.
 
 ### GLTF > JSX
 
