@@ -10,7 +10,7 @@ import Overlay from './Overlay';
 function App() {
   return (
     <div>
-      <div> <Overlay /> </div>
+      {/* <Overlay /> */}
       <div id='webgl'>
         <Suspense>
           <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>  
