@@ -14,6 +14,6 @@ npx gltfjsx model.gltf
 ```
 replacing model.gltf with your file in the public folder.
 
-### Textures
+### Materials
 
-For ideal GLTF texture exports to three.js refer to your specific programs documentation, like Blender's (https://docs.blender.org/manual/en/2.80/addons/io_scene_gltf2.html#). Some textures may need to be baked to show up in three.js so if your scene/model looks unsatisfactory, this is probably the case.
+For ideal GLTF material exports to three.js refer to your specific programs documentation, like Blender's (https://docs.blender.org/manual/en/2.80/addons/io_scene_gltf2.html#). Some materials may need to be baked to show up in three.js so if your scene/model looks unsatisfactory, this is probably the case.
