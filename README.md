@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 ![r3f-kerosene](r3f-kerosene-cover.png)
 
-# r3f-kerosene :fire:
-=======
 # R3F Kerosene :fire:
->>>>>>> caedc656a2811d84f321b600b3680243dd35e5b0
 
 Quick-start framework for performant, reusable, real-time 3D apps using React and Three.js.
 
