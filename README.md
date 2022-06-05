@@ -1,4 +1,4 @@
-# r3f-kerosene :fire:
+# R3F Kerosene :fire:
 
 Quick-start framework for performant, reusable, real-time 3D apps using React and Three.js.
 
