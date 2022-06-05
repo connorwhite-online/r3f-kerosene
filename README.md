@@ -6,7 +6,7 @@ Quick-start framework for performant, reusable, real-time 3D apps using React an
 
 ### Modularity
 
-Using JSX components, react-three-fiber leverages the ability to reuse models and scenes, calling them within the canvas as easily as any other react component.
+Using JSX components, react-three-fiber leverages the ability to reuse models and scenes, calling them within the canvas as easily as any other react component in the DOM.
 
 ### GLTF > JSX
 
