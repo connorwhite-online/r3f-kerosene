@@ -1,14 +1,22 @@
+<<<<<<< HEAD
+![r3f-kerosene](r3f-kerosene-cover.png)
+
 # r3f-kerosene :fire:
+=======
+# R3F Kerosene :fire:
+>>>>>>> caedc656a2811d84f321b600b3680243dd35e5b0
 
 Quick-start framework for performant, reusable, real-time 3D apps using React and Three.js.
 
+## Get Started
+
 ### Modularity
 
-Using .jsx components, react-three-fiber leverages the ability to reuse models and scenes, calling them within the canvas as easily as any other react component.
+Using JSX components, react-three-fiber leverages the ability to reuse models and scenes, calling them within the Canvas as easily as any other react component in the DOM.
 
 ### GLTF > JSX
 
-Export a .gltf or .glb file from Blender, C4D, Maya, CLO, Fusion360 etc. To create a reusable .jsx component from your scene/model you can drag and drop the .gltf into https://gltf.pmnd.rs/ and copy/paste the code into a new component. Alternatively this can be converted in the command line if your .gltf is in your public folder by running:
+Export a .gltf or .glb file from Blender, C4D, Maya, CLO, Fusion360 etc. To create a reusable .jsx component from your scene/model you can drag and drop the .gltf into https://gltf.pmnd.rs/ and copy/paste the code into a new component. Alternatively this can be converted in the command line if your .gltf is already in your public folder by running:
 ```
 npx gltfjsx model.gltf
 ```
