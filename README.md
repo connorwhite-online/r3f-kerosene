@@ -8,7 +8,7 @@ Using .jsx components, react-three-fiber leverages the ability to reuse models a
 
 ### GLTF > JSX
 
-Export a .gltf or .glb file from Blender, C4D, Maya, CLO, Fusion360 etc. To create a reusable .jsx component from your scene/model you can drag and drop the .gltf into https://gltf.pmnd.rs/ and copy/paste the code into a new component. Alternatively this can be converted in the command line if your .gltf is in your public folder by running:
+Export a .gltf or .glb file from Blender, C4D, Maya, CLO, Fusion360 etc. To create a reusable .jsx component from your scene/model you can drag and drop the .gltf into https://gltf.pmnd.rs/ and copy/paste the code into a new component. Alternatively this can be converted in the command line if your .gltf is already in your public folder by running:
 ```
 npx gltfjsx model.gltf
 ```
