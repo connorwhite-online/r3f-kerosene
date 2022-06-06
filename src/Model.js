@@ -16,6 +16,8 @@ export default function Model(props) {
         scale={[-0.13, 0.03, -0.13]}
       />
       <mesh
+        // handle events directly in the mesh object
+        onClick={(e) => console.log('the model was clicked')}
         castShadow
         receiveShadow
         geometry={nodes.Jerry_Can.geometry}
