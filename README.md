@@ -6,6 +6,15 @@ Quick-start framework for performant, reusable, real-time 3D apps using React an
 
 ## Get Started
 
+To install all dependencies run:
+```
+npm i
+```
+Then start the production server and make changes in real-time with:
+```
+npm start
+```
+
 ### Modularity
 
 Using JSX components, react-three-fiber leverages the ability to reuse models and scenes, calling them within the Canvas as easily as any other react component in the DOM.
