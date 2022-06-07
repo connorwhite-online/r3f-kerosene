@@ -5,12 +5,9 @@ import { Canvas } from 'react-three-fiber';
 
 // Import JSX component like so after converting your GLTF at https://gltf.pmnd.rs/ and put the .gltf file in the public folder
 import Model from './Model';
-import Overlay from './Overlay';
 
 function App() {
   return (
-    <div>
-      {/* <Overlay /> */}
       <div id='webgl'>
         {/* The canvas is asynchronous, wrap it in Suspense for loading fallbacks and error handling */}
         <Suspense fallback={null}>
@@ -36,7 +33,6 @@ function App() {
           </Canvas>
         </Suspense>
       </div>
-    </div>
    
   );
 }

@@ -11,8 +11,8 @@ export default function Model(props) {
         receiveShadow
         geometry={nodes.Cap.geometry}
         material={materials["Stainless Steel"]}
-        position={[0, 0.8, -0.62]}
-        rotation={[-0.93, 0, 0]}
+        position={[0, 0.8, -0.61]}
+        rotation={[-0.91, 0, 0]}
         scale={[-0.13, 0.03, -0.13]}
       />
       <mesh
@@ -28,3 +28,4 @@ export default function Model(props) {
 }
 
 useGLTF.preload("/kerosene.gltf");
+ 
