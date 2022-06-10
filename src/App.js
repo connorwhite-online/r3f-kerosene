@@ -10,7 +10,7 @@ function App() {
   return (
       <div id='webgl'>
         {/* The canvas is asynchronous, wrap it in Suspense for loading fallbacks and error handling */}
-        <Suspense fallback={null}>
+        <Suspense fallback={<div> Loading... </div>}>
           <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>  
             <pointLight 
               intensity={1}
