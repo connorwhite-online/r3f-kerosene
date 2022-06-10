@@ -17,7 +17,7 @@ export default function Model(props) {
       />
       <mesh
         // handle events directly in the mesh object
-        onClick={(e) => console.log('the model was clicked')}
+        onClick={(e) => console.log('you clicked the model')}
         castShadow
         receiveShadow
         geometry={nodes.Jerry_Can.geometry}
