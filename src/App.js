@@ -10,12 +10,27 @@ function App() {
   return (
       <div id='webgl'>
         {/* The canvas is asynchronous, wrap it in Suspense for loading fallbacks and error handling */}
-        <Suspense fallback={<div> Loading... </div>}>
+        <Suspense>
           <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>  
             <pointLight 
-              intensity={1}
+              intensity={.75}
               angle={0.25}
               position={[10, 10, 1]} 
+            />
+            <spotLight
+              intensity={.75}
+              angle={0.25}
+              position={[1, -10, 1]}
+            />
+            <spotLight
+              intensity={.75}
+              angle={0.25}
+              position={[-5, 5, -5]}
+            />
+            <spotLight
+              intensity={.75}
+              angle={0.25}
+              position={[-10, 0, 10]}
             />
             {/* Add converted jsx components to the canvas */} 
             <Model />
