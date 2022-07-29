@@ -5,12 +5,13 @@ import { Canvas } from 'react-three-fiber';
 
 // Import JSX component like so after converting your GLTF at https://gltf.pmnd.rs/ and put the .gltf file in the public folder
 import Model from './Model';
+import Loader from './Loader';
 
 function App() {
   return (
       <div id='webgl'>
         {/* The canvas is asynchronous, wrap it in Suspense for loading fallbacks and error handling */}
-        <Suspense>
+        
           <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>  
             <pointLight 
               intensity={.75}
@@ -33,7 +34,9 @@ function App() {
               position={[-10, 0, 10]}
             />
             {/* Add converted jsx components to the canvas */} 
-            <Model />
+            <Suspense fallback={<Loader/>} >
+              <Model />
+            </Suspense>
             {/* Zoom, panning, and rotation controls for the scene */}
             <OrbitControls 
               autoRotate
@@ -46,7 +49,6 @@ function App() {
             {/* Stats is a time-based log of the renderer's frame-rate */}
             <Stats />
           </Canvas>
-        </Suspense>
       </div>
    
   );
