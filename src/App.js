@@ -10,8 +10,6 @@ import Loader from './Loader';
 function App() {
   return (
       <div id='webgl'>
-        {/* The canvas is asynchronous, wrap it in Suspense for loading fallbacks and error handling */}
-        
           <Canvas camera={{ position: [10, 5, 5], fov: 20 }}>  
             <pointLight 
               intensity={.75}
@@ -33,8 +31,9 @@ function App() {
               angle={0.25}
               position={[-10, 0, 10]}
             />
-            {/* Add converted jsx components to the canvas */} 
+            {/* Load your models asynchronously, wrap it in Suspense for loading fallbacks and error handling */}
             <Suspense fallback={<Loader/>} >
+              {/* Add converted jsx components to the canvas */} 
               <Model />
             </Suspense>
             {/* Zoom, panning, and rotation controls for the scene */}
