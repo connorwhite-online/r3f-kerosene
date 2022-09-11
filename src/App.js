@@ -39,7 +39,7 @@ function App() {
             {/* Zoom, panning, and rotation controls for the scene */}
             <OrbitControls 
               autoRotate
-              autoRotateSpeed={0.5}
+              autoRotateSpeed={1}
               enableZoom
               maxDistance={20}
               minDistance={5}
